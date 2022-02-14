@@ -1,0 +1,12 @@
+n=int(input("Enter any number"))
+sum=0
+while n>0:
+      rem=n%10
+      if rem !=0:
+         sum = sum++1
+      n=n//10
+print("Sum of digits in given number", sum)  
+o/p:
+Enter any number95555954268
+Sum of digits in given number 11
+    
